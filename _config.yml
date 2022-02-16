@@ -19,8 +19,8 @@ description: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation S
 navbar-links:
   About: "index"
   Leaderboard: "leaderboard"
-  Getting Started: "gettingstarted"
   Paper: "https://arxiv.org/"
+  Getting Started: "gettingstarted"
   MuMiN-build: "https://github.com/MuMiN-dataset/mumin-build"
   MuMiN-baseline: "https://github.com/MuMiN-dataset/mumin-baseline"
   MuMiN-trawl: "https://github.com/MuMiN-dataset/mumin-trawl"
