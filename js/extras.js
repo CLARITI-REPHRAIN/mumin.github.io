@@ -29,13 +29,18 @@ if(leaderboard){
                 console.log(size)
                 var element = row.getElementsByClassName(`${task} ${size}`)[0]
                 console.log(element)
-                taskScoreMean += parseFloat(element.innerHTML) / sizes.length
+                if (element){
+                    var totalTaskScore = parseFloat(element.innerHTML)
+                    taskScoreMean += totalTaskScore / sizes.length
+                }
             }
 
             // Set the task score in the row
-            scoreElements = row.getElementsByClassName(`${task}-score`)
-            taskScoreMean = ('00' + taskScoreMean.toFixed(2)).slice(-5)
-            scoreElements[0].innerHTML = `${taskScoreMean}`
+            scoreElement = row.getElementsByClassName(`${task}-score`)[0]
+            if (scoreElement){
+                taskScoreMean = ('00' + taskScoreMean.toFixed(2)).slice(-5)
+                scoreElement.innerHTML = `${taskScoreMean}`
+            }
 
             // Add the task score to the overall score
             overallScore += taskScoreMean / tasks.length
@@ -43,8 +48,10 @@ if(leaderboard){
 
         // Set overall score in the row
         var scoreElement = row.getElementsByClassName('score')[0]
-        overallScore = ('00' + overallScore.toFixed(2)).slice(-5)
-        scoreElement.innerHTML = `${overallScore}`
+        if (scoreElement){
+            overallScore = ('00' + overallScore.toFixed(2)).slice(-5)
+            scoreElement.innerHTML = `${overallScore}`
+        }
     }
 }
 
