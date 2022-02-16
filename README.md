@@ -1,3 +1,10 @@
-# [saattrupdan.github.io](https://saattrupdan.github.io/)
+# [mumin.github.io](https://mumin.github.io/)
 
-This is my website, which is based on [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll).
+The website for the MuMiN misinformation dataset from [1], based on [Beautiful
+Jekyll](https://github.com/daattali/beautiful-jekyll).
+
+
+## References
+
+[1] Nielsen and McConville: _MuMiN: A Large-Scale Multilingual Multimodal
+Fact-Checked Misinformation Social Network Dataset_ (2022).
