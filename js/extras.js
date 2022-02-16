@@ -20,11 +20,14 @@ if(leaderboard){
         for (var task_idx=0; task_idx < tasks.length; task_idx++){
             var task = tasks[task_idx]
             var taskScoreMean = 0
+            console.log(task)
 
             // Loop over all the sizes
             for (var size_idx=0; size_idx < sizes.length; size_idx++){
                 var size = sizes[size_idx]
+                console.log(size)
                 var element = row.getElementsByClassName(`${task} ${size}`)[0]
+                console.log(element)
                 taskScoreMean += parseFloat(element.innerHTML) / sizes.length
             }
 
