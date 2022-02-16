@@ -24,5 +24,5 @@ tasks:
   whose verdict is `misinformation` or `factual`.
 
 See [the leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list
-of the best performing models. If you have a new submission then send an email
-to [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
+of the best performing models. For new submissions, please email
+[ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
