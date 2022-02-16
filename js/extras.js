@@ -14,21 +14,17 @@ if(leaderboard){
     // Loop over all rows
     for (var row_idx=0; row_idx < rows.length; row_idx++){
         var row = rows[row_idx]
-        console.log(row)
         var overallScore = 0
 
         // Loop over all the tasks
         for (var task_idx=0; task_idx < tasks.length; task_idx++){
             var task = tasks[task_idx]
             var taskScoreMean = 0
-            console.log(task)
 
             // Loop over all the sizes
             for (var size_idx=0; size_idx < sizes.length; size_idx++){
                 var size = sizes[size_idx]
-                console.log(size)
                 var element = row.getElementsByClassName(`${task} ${size}`)[0]
-                console.log(element)
                 if (element){
                     var totalTaskScore = parseFloat(element.innerHTML)
                     taskScoreMean += totalTaskScore / sizes.length
@@ -55,8 +51,7 @@ if(leaderboard){
     }
 }
 
-// Sort the pretrained leaderboard by the Score column and the finetuned
-// benchmark by the NER column
+// Sort the leaderboard by the score column
 var click = new MouseEvent("click", {
     view: window,
     bubbles: true,
