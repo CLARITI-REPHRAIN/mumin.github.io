@@ -10,14 +10,14 @@ title: MuMiN Leaderboard
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The name of the model">Model</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="URL to the paper in which the model was published">Paper</span></th>
    <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the scores">Overall score</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the claim scores">Claim score</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the tweet scores">Tweet score</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Claim-small</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Claim-medium</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Claim-large</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Tweet-small</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Tweet-medium</span></th>
-   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Tweet-large</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Claim classification score, being the average of the individual claim scores">Claim score</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Tweet classification score, being the average of the individual tweet scores">Tweet score</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Claim classification score on MuMiN-small, measured as the macro-average F1-score of the two classes">Claim-small</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Claim classification score on MuMiN-medium, measured as the macro-average F1-score of the two classes">Claim-medium</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Claim classification score on MuMiN-large, measured as the macro-average F1-score of the two classes">Claim-large</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Tweet classification score on MuMiN-small, measured as the macro-average F1-score of the two classes">Tweet-small</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Tweet classification score on MuMiN-medium, measured as the macro-average F1-score of the two classes">Tweet-medium</span></th>
+   <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Tweet classification score on MuMiN-large, measured as the macro-average F1-score of the two classes">Tweet-large</span></th>
   </tr>
  </thead>
  <tbody>
