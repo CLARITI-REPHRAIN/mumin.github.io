@@ -14,6 +14,7 @@ if(leaderboard){
     // Loop over all rows
     for (var row_idx=0; row_idx < rows.length; row_idx++){
         var row = rows[row_idx]
+        console.log(row)
         var overallScore = 0
 
         // Loop over all the tasks
