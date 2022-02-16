@@ -26,3 +26,16 @@ tasks:
 See [the leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list
 of the best performing models. For new submissions, please email
 [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
+
+You can also check out the following repositories (also linked to in the top
+menu):
+
+- [MuMiN-build](https://github.com/MuMiN-dataset/mumin-build), containing the
+  source code for our Python package, `mumin`, which allows easy compilation
+  and export of the dataset.
+- [MuMiN-baseline](https://github.com/MuMiN-dataset/mumin-baseline), containing
+  the source code for all our baseline experiments, the scores of which are in
+  the [leaderboard](https://mumin-dataset.github.io/leaderboard/).
+- [MuMiN-trawl](https://github.com/MuMiN-dataset/mumin-trawl), containing our
+  data collection and linking system, which can be used to extend the MuMiN
+  dataset.
