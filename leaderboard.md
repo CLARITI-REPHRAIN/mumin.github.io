@@ -51,7 +51,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Majority class</td>
-   <td></td>
+   <td><a href="https://arxiv.org/">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
@@ -64,7 +64,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Random</td>
-   <td></td>
+   <td><a href="https://arxiv.org/">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
