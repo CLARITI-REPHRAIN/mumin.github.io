@@ -9,7 +9,7 @@ title: MuMiN Leaderboard
   <tr>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="The name of the model">Model</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="URL to the paper in which the model was published">Paper</span></th>
-   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the scores">Score</span></th>
+   <th id="score-col"><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the scores">Overall score</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the claim scores">Claim score</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Average of the tweet scores">Tweet score</span></th>
    <th><span data-toggle="tooltip" data-placement="bottom" data-container="body" title="Macro-average F1-score">Claim-small</span></th>
