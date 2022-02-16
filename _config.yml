@@ -4,23 +4,21 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-#url: "https://scandeval.github.io"
-url: "https://scandeval.github.io"
+url: "https://mumin.github.io"
 baseurl: ""
 
 # Name of website
-title: ScandEval
+title: MuMiN
 
 # Short description of your site
-description: A Scandinavian Natural Language Understanding Benchmark
+description: description
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About: "index"
-  Pretrained Benchmark: "pretrained"
-  Finetuned Benchmark: "finetuned"
+  Leaderboard: "leaderboard"
   # Paper: "paper"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -58,6 +56,7 @@ footer-link-col: "#404040"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Dan Saattrup Nielsen
+  name: Ryan McConville
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -72,14 +71,14 @@ author:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   google: false
   linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "scandeval.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "mumin.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
