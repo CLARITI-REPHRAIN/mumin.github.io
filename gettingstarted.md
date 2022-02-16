@@ -13,27 +13,27 @@ The dataset is built using our Python package, `mumin`. To install this, write
 the following in your terminal:
 
 ```shell
-pip install mumin
+$ pip install mumin
 ```
 
 If you want to be able to add embeddings of the tweets and images, you need to
 add on the `[embeddings]` extras:
 
 ```shell
-pip install mumin[embeddings]
+$ pip install mumin[embeddings]
 ```
 
 Further, if you're interested in exporting to the Deep Graph Library, then add
 on the `[dgl]` extras:
 
 ```shell
-pip install mumin[dgl]
+$ pip install mumin[dgl]
 ```
 
 You can add on _all_ extras using the `[all]` extras:
 
 ```shell
-pip install mumin[all]
+$ pip install mumin[all]
 ```
 
 
