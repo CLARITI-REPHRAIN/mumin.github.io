@@ -49,7 +49,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Majority class</td>
-   <td>N/A</td>
+   <td></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
@@ -62,7 +62,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Random</td>
-   <td>N/A</td>
+   <td></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
