@@ -3,7 +3,7 @@ layout: leaderboard
 title: MuMiN Leaderboard
 ---
 
-<center>_Hover over the headings for more information_</center>
+<center><i>Hover over the headings for more information</i></center>
 
 <div class="table-wrapper centered">
 <table id="leaderboard" class="sortable fixed centered small-font">
