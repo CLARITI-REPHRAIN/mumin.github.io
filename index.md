@@ -30,8 +30,7 @@ leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list of the
 best performing models. For new submissions, please email
 [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
 
-You can also check out the following repositories (also linked to in the top
-menu):
+You can also check out the following MuMiN-related Github repositories:
 
 - [MuMiN-build](https://github.com/MuMiN-dataset/mumin-build), containing the
   source code for our Python package, `mumin`, which allows easy compilation
