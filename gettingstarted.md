@@ -49,7 +49,7 @@ containing the following:
 MuminDataset(num_nodes=388,149, num_relations=475,490, size='small', compiled=True)
 ```
 
-Node that this dataset does not contain _all_ the nodes and relations in
+Note that this dataset does not contain _all_ the nodes and relations in
 MuMiN-small, as that would take way longer to compile. The data left out are
 timelines, profile pictures and article images. These can be included by
 specifying `include_extra_images=True` and/or `include_timelines=True` in the
