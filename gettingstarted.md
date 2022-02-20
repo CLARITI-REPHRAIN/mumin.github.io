@@ -46,8 +46,14 @@ containing the following:
 >>> from mumin import MuminDataset
 >>> dataset = MuminDataset(bearer_token, size='small')
 >>> dataset.compile()
-MuminDataset(num_nodes=XXXXX, num_relations=XXXXX, size='small', compiled=True)
+MuminDataset(num_nodes=388,149, num_relations=475,490, size='small', compiled=True)
 ```
+
+Node that this dataset does not contain _all_ the nodes and relations in
+MuMiN-small, as that would take way longer to compile. The data left out are
+timelines, profile pictures and article images. These can be included by
+specifying `include_extra_images=True` and/or `include_timelines=True` in the
+constructor of `MuminDataset`.
 
 With a compiled dataset, you can now work directly with the individual nodes
 and relations using the `dataset.nodes` and `dataset.rels` dictionaries. For
@@ -56,7 +62,9 @@ instance, you can get a dataframe with all the claims as follows:
 ```python
 >>> claim_df = dataset.nodes['claim']
 >>> claim_df.head()
-TODO
+Index(['embedding', 'label', 'reviewers', 'date', 'language', 'keywords',
+       'cluster_keywords', 'cluster', 'train_mask', 'val_mask', 'test_mask'],
+      dtype='object')
 ```
 
 All the relations are dataframes with two columns, `src` and `tgt`,
@@ -66,7 +74,12 @@ extract this as follows:
 ```python
 >>> discusses_df = dataset.rels[('tweet', 'discusses', 'claim')]
 >>> discusses_df.head()
-TODO
+   src  tgt
+0    0    0
+1    1    1
+2    2    1
+3    3    1
+4    4    1
 ```
 
 ## Using embeddings and exporting to `dgl`
@@ -76,7 +89,7 @@ images then run the following:
 
 ```python
 >>> dataset.add_embeddings()
-MuminDataset(num_nodes=XXXXX, num_relations=XXXXX, size='small', compiled=True)
+MuminDataset(num_nodes=388,149, num_relations=475,490, size='small', compiled=True)
 ```
 
 From a compiled dataset, with or without embeddings, you can export the dataset
@@ -90,7 +103,10 @@ dgl.heterograph.DGLHeteroGraph
 ```
 
 
-## Tutorials
+## Tutorial
 
-For more in-depth examples and tutorials, check out our notebooks in the
-[MuMiN-examples repository](todo)!
+We have created a tutorial which takes you through the dataset as well as
+shows how one could create several kinds of misinformation classifiers on the
+dataset. The tutorial can be found here:
+
+[https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN](https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN)
