@@ -23,8 +23,11 @@ tasks:
   retweet) to be fact-checked, predict whether the tweet discusses a claim
   whose verdict is `misinformation` or `factual`.
 
-See [the leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list
-of the best performing models. For new submissions, please email
+See [Getting Started](https://mumin-dataset.github.io/gettingstarted/) for a
+quickstart as well as an in-depth tutorial, including the building and training
+of multiple misinformation classifiers on MuMiN. See [the
+leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list of the
+best performing models. For new submissions, please email
 [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
 
 You can also check out the following repositories (also linked to in the top
