@@ -1,4 +1,4 @@
-# [mumin.github.io](https://mumin.github.io/)
+# [mumin-dataset.github.io](https://mumin-dataset.github.io/)
 
 The website for the MuMiN misinformation dataset from [1], based on [Beautiful
 Jekyll](https://github.com/daattali/beautiful-jekyll).
