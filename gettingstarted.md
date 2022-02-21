@@ -49,6 +49,11 @@ containing the following:
 MuminDataset(num_nodes=388,149, num_relations=475,490, size='small', compiled=True)
 ```
 
+To be able to compile the dataset, data from Twitter needs to be downloaded, 
+which requires a Twitter API key. You can get one 
+[for free here](https://developer.twitter.com/en/portal/dashboard). You 
+will need the Bearer Token (bearer_token).
+
 Note that this dataset does not contain _all_ the nodes and relations in
 MuMiN-small, as that would take way longer to compile. The data left out are
 timelines, profile pictures and article images. These can be included by
