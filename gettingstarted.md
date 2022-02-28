@@ -49,9 +49,9 @@ containing the following:
 MuminDataset(num_nodes=388,149, num_relations=475,490, size='small', compiled=True)
 ```
 
-To be able to compile the dataset, data from Twitter needs to be downloaded, 
-which requires a Twitter API key. You can get one 
-[for free here](https://developer.twitter.com/en/portal/dashboard). You 
+To be able to compile the dataset, data from Twitter needs to be downloaded,
+which requires a Twitter API key. You can get one
+[for free here](https://developer.twitter.com/en/portal/dashboard). You
 will need the Bearer Token (bearer_token).
 
 Note that this dataset does not contain _all_ the nodes and relations in
@@ -66,7 +66,7 @@ instance, you can get a dataframe with all the claims as follows:
 
 ```python
 >>> claim_df = dataset.nodes['claim']
->>> claim_df.head()
+>>> claim_df.columns
 Index(['embedding', 'label', 'reviewers', 'date', 'language', 'keywords',
        'cluster_keywords', 'cluster', 'train_mask', 'val_mask', 'test_mask'],
       dtype='object')
