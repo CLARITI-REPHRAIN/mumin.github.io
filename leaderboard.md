@@ -25,7 +25,7 @@ title: MuMiN Leaderboard
  <tbody>
   <tr>
    <td>Hetero-GraphSAGE</td>
-   <td><a href="https://arxiv.org/">link</a></td>
+   <td><a href="https://arxiv.org/abs/2202.11684">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
@@ -38,7 +38,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>LaBSE</td>
-   <td><a href="https://arxiv.org/">link</a></td>
+   <td><a href="https://arxiv.org/abs/2202.11684">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
@@ -51,7 +51,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Majority class</td>
-   <td><a href="https://arxiv.org/">link</a></td>
+   <td><a href="https://arxiv.org/abs/2202.11684">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
@@ -64,7 +64,7 @@ title: MuMiN Leaderboard
   </tr>
   <tr>
    <td>Random</td>
-   <td><a href="https://arxiv.org/">link</a></td>
+   <td><a href="https://arxiv.org/abs/2202.11684">link</a></td>
    <td class="score"></td>
    <td class="claim-score"></td>
    <td class="tweet-score"></td>
