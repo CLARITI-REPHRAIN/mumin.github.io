@@ -20,8 +20,8 @@ tasks:
   from social media, predict whether the verdict of the claim is
   `misinformation` or `factual`.
 - Tweet classification: Given a source tweet (i.e., not a reply, quote tweet or
-  retweet) to be fact-checked, predict whether the tweet discusses a claim
-  whose verdict is `misinformation` or `factual`.
+  retweet) to be fact-checked, and its surrounding subgraph extracted from social medis,
+  predict whether the tweet discusses a claim whose verdict is `misinformation` or `factual`.
 
 See [Getting Started](https://mumin-dataset.github.io/gettingstarted/) for a
 quickstart as well as an in-depth tutorial, including the building and training
