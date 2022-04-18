@@ -13,6 +13,7 @@ graph and features 21,565,018 tweets and 1,986,354 users, belonging to 26,048
 Twitter threads, discussing 12,914 fact-checked claims from 115 fact-checking
 organisations in 41 different languages, spanning a decade.
 
+## Tasks
 The dataset has three different sizes and features two graph classification
 tasks:
 
@@ -24,6 +25,7 @@ tasks:
   social media, predict whether the tweet discusses a claim whose verdict is
   `misinformation` or `factual`.
 
+## Getting Started
 See [Getting Started](https://mumin-dataset.github.io/gettingstarted/) for a
 quickstart as well as an in-depth tutorial, including the building and training
 of multiple misinformation classifiers on MuMiN. See [the
@@ -31,6 +33,13 @@ leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list of the
 best performing models. For new submissions, please email
 [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
 
+## Citation
+If you use this dataset, you can cite it as follows:
+
+Dan Saattrup Nielsen and Ryan McConville. MuMiN: A large-scale multilingual multimodal fact-checked misinformation social network dataset. In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*. ACM, 2022. 
+[bib](https://ryanmcconville.com/McConville_Ryan_bib.html#NielsenMcConville2022)
+
+## Other MuMiN repos
 You can also check out the following MuMiN-related Github repositories:
 
 - [MuMiN-build](https://github.com/MuMiN-dataset/mumin-build), containing the
