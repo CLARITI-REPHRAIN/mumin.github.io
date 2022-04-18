@@ -44,8 +44,12 @@ best performing models. For new submissions, please email
 ## Citation
 If you use this dataset, you can cite it as follows:
 
-Dan Saattrup Nielsen and Ryan McConville. MuMiN: A large-scale multilingual multimodal fact-checked misinformation social network dataset. In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*. ACM, 2022. 
+Dan Saattrup Nielsen and Ryan McConville. MuMiN: A large-scale multilingual multimodal fact-checked misinformation social network dataset. In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*. ACM, 2022 (to appear). 
 [bib](https://ryanmcconville.com/McConville_Ryan_bib.html#NielsenMcConville2022)
+
+*or*
+
+Dan Saattrup Nielsen and Ryan McConville. "MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset." arXiv preprint arXiv:2202.11684 (2022). [bib](https://scholar.google.com/scholar_lookup?arxiv_id=2202.11684)
 
 ## Other MuMiN repos
 You can also check out the following MuMiN-related Github repositories:
