@@ -28,23 +28,23 @@ tasks:
 ## Getting Started
 See [Getting Started](https://mumin-dataset.github.io/gettingstarted/) for a
 quickstart as well as an in-depth tutorial, including the building and training
-of multiple misinformation classifiers on MuMiN. 
+of multiple misinformation classifiers on MuMiN.
 
-### Tutorial
-We have created a tutorial which takes you through the dataset as well as shows how one could create several kinds of misinformation classifiers on the dataset. The tutorial can be found here:
-https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN
-
-
+## Tutorial
+We have created a tutorial which takes you through the dataset as well as shows
+how one could create several kinds of misinformation classifiers on the
+dataset. The tutorial can be found
+[here](https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN).
 
 ## Leaderboard
-See [the leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list of the
-best performing models. For new submissions, please email
+See [the leaderboard](https://mumin-dataset.github.io/leaderboard/) for a list
+of the best performing models. For new submissions, please email
 [ryan.mcconville@bristol.ac.uk](mailto:ryan.mcconville@bristol.ac.uk).
 
 ## Citation
 If you use this dataset, you can cite it as follows:
 
-Dan Saattrup Nielsen and Ryan McConville. MuMiN: A large-scale multilingual multimodal fact-checked misinformation social network dataset. In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*. ACM, 2022 (to appear). 
+Dan Saattrup Nielsen and Ryan McConville. MuMiN: A large-scale multilingual multimodal fact-checked misinformation social network dataset. In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)*. ACM, 2022 (to appear).
 [bib](https://ryanmcconville.com/McConville_Ryan_bib.html#NielsenMcConville2022)
 
 *or*
