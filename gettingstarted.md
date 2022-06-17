@@ -113,5 +113,5 @@ dgl.heterograph.DGLHeteroGraph
 We have created a tutorial which takes you through the dataset as well as
 shows how one could create several kinds of misinformation classifiers on the
 dataset. The tutorial can be found here:
-
-[https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN](https://colab.research.google.com/drive/1Kz0EQtySYQTo1ui8F2KZ6ERneZVf5TIN)
+[https://colab.research.google.com/drive/1JCjgg3moGBOuZk4iVjBpQNqgsAYFyNoS]
+(https://colab.research.google.com/drive/1JCjgg3moGBOuZk4iVjBpQNqgsAYFyNoS)
